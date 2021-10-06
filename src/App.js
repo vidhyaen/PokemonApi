@@ -40,12 +40,12 @@ function App() {
           ))}
         </div>
         {prev && (
-          <button className="mx-2 my-2" onClick={() => setUrl(prev)}>
+          <button className="mx-2 my-2 btn btn-danger" onClick={() => setUrl(prev)}>
             Prev
           </button>
         )}
         {next && (
-          <button className="mx-2 my-2" onClick={() => setUrl(next)}>
+          <button className="mx-2 my-2 btn btn-danger" onClick={() => setUrl(next)}>
             Next
           </button>
         )}</div>

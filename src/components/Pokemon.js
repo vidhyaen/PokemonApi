@@ -15,8 +15,10 @@ function Pokemon({ pokemon }) {
       <Card>
         <Card.Title className="text-center">{pokemon.name}</Card.Title>
         <img
-          src={`https://pokeres.bastionbot.org/images/pokemon/${pokemonId}.png`}
+          src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemonId}.svg`}
           alt={pokemon.name}
+          height="200"
+          className="py-4"
         />
         {/* <Parent /> */}
       </Card>
